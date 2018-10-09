@@ -11,7 +11,7 @@ const config = {
     uglify()
   ],
   output: {
-    format: 'umd',
+    format: 'cjs',
     name: 'countdown',
     globals: {
       react: "React"

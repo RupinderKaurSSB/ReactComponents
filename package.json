@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/countdown.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:RupinderKaurSSB/ReactComponents.git"
+  },
   "scripts": {
     "build": "rollup -c -o dist/countdown.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
