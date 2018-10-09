@@ -1,0 +1,24 @@
+{
+  "name": "countdown-timer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/countdown.min.js",
+  "scripts": {
+    "build": "rollup -c -o dist/countdown.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.5.2",
+    "rollup": "^0.66.5",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-uglify": "^6.0.0"
+  }
+}
